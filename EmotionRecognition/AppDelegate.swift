@@ -16,6 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+    // Initialize the window
+    window = UIWindow.init(frame: UIScreen.main.bounds)
+    
+    // Set Background Color of window
+    window?.backgroundColor = UIColor.white
+    
+    // Allocate memory for an instance of the 'LoginViewController' class
+    let loginViewController = LoginViewController()
+    
+    // Set the root view controller of the app's window
+    let navigationVC = UINavigationController(rootViewController: loginViewController)
+    window!.rootViewController = navigationVC
+    
+    // Make the window visible
+    window!.makeKeyAndVisible()
+    
     return true
   }
 

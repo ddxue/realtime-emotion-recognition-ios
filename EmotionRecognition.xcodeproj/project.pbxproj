@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		685574B51F357F0F00FCC7CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685574B41F357F0F00FCC7CB /* AppDelegate.swift */; };
-		685574B71F357F0F00FCC7CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685574B61F357F0F00FCC7CB /* ViewController.swift */; };
-		685574BA1F357F1000FCC7CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685574B81F357F1000FCC7CB /* Main.storyboard */; };
 		685574BC1F357F1000FCC7CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685574BB1F357F1000FCC7CB /* Assets.xcassets */; };
 		685574BF1F357F1000FCC7CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685574BD1F357F1000FCC7CB /* LaunchScreen.storyboard */; };
+		685574CB1F35827200FCC7CB /* SocialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685574CA1F35827200FCC7CB /* SocialButton.swift */; };
+		685574CD1F35866600FCC7CB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685574CC1F35866600FCC7CB /* LoginViewController.swift */; };
+		685574CF1F35885D00FCC7CB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685574CE1F35885D00FCC7CB /* CameraViewController.swift */; };
+		685574D11F358CF600FCC7CB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685574D01F358CF600FCC7CB /* LoginViewController.xib */; };
+		685574D31F35915C00FCC7CB /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685574D21F35915C00FCC7CB /* CameraViewController.xib */; };
+		685574D51F35931C00FCC7CB /* SwiftyRecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685574D41F35931C00FCC7CB /* SwiftyRecordButton.swift */; };
+		80E208ABFAF1ED838C30E63D /* Pods_EmotionRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691EB238E0D53E7AD62FB50E /* Pods_EmotionRecognition.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A073B99953FED1BAAF6788E /* Pods-EmotionRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmotionRecognition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmotionRecognition/Pods-EmotionRecognition.debug.xcconfig"; sourceTree = "<group>"; };
 		685574B11F357F0F00FCC7CB /* EmotionRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		685574B41F357F0F00FCC7CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		685574B61F357F0F00FCC7CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		685574B91F357F1000FCC7CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		685574BB1F357F1000FCC7CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		685574BE1F357F1000FCC7CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		685574C01F357F1000FCC7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685574CA1F35827200FCC7CB /* SocialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialButton.swift; sourceTree = "<group>"; };
+		685574CC1F35866600FCC7CB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		685574CE1F35885D00FCC7CB /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		685574D01F358CF600FCC7CB /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		685574D21F35915C00FCC7CB /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		685574D41F35931C00FCC7CB /* SwiftyRecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyRecordButton.swift; sourceTree = "<group>"; };
+		691EB238E0D53E7AD62FB50E /* Pods_EmotionRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmotionRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB9F19AF41578083467537D /* Pods-EmotionRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmotionRecognition.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmotionRecognition/Pods-EmotionRecognition.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E208ABFAF1ED838C30E63D /* Pods_EmotionRecognition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28A93E22D156AAE13D8F248E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A073B99953FED1BAAF6788E /* Pods-EmotionRecognition.debug.xcconfig */,
+				6DB9F19AF41578083467537D /* Pods-EmotionRecognition.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4390BD041EA81B43CB05DE49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				691EB238E0D53E7AD62FB50E /* Pods_EmotionRecognition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		685574A81F357F0F00FCC7CB = {
 			isa = PBXGroup;
 			children = (
 				685574B31F357F0F00FCC7CB /* EmotionRecognition */,
 				685574B21F357F0F00FCC7CB /* Products */,
+				28A93E22D156AAE13D8F248E /* Pods */,
+				4390BD041EA81B43CB05DE49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,50 @@
 		685574B31F357F0F00FCC7CB /* EmotionRecognition */ = {
 			isa = PBXGroup;
 			children = (
-				685574B41F357F0F00FCC7CB /* AppDelegate.swift */,
-				685574B61F357F0F00FCC7CB /* ViewController.swift */,
-				685574B81F357F1000FCC7CB /* Main.storyboard */,
+				685574C91F35824A00FCC7CB /* Storyboards */,
+				685574C61F35820800FCC7CB /* Controllers */,
+				685574C71F35822B00FCC7CB /* Views */,
+				685574C81F35823900FCC7CB /* Models */,
 				685574BB1F357F1000FCC7CB /* Assets.xcassets */,
-				685574BD1F357F1000FCC7CB /* LaunchScreen.storyboard */,
 				685574C01F357F1000FCC7CB /* Info.plist */,
 			);
 			path = EmotionRecognition;
+			sourceTree = "<group>";
+		};
+		685574C61F35820800FCC7CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				685574B41F357F0F00FCC7CB /* AppDelegate.swift */,
+				685574CC1F35866600FCC7CB /* LoginViewController.swift */,
+				685574CE1F35885D00FCC7CB /* CameraViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		685574C71F35822B00FCC7CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				685574D01F358CF600FCC7CB /* LoginViewController.xib */,
+				685574D21F35915C00FCC7CB /* CameraViewController.xib */,
+				685574CA1F35827200FCC7CB /* SocialButton.swift */,
+				685574D41F35931C00FCC7CB /* SwiftyRecordButton.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		685574C81F35823900FCC7CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		685574C91F35824A00FCC7CB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				685574BD1F357F1000FCC7CB /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 685574C31F357F1000FCC7CB /* Build configuration list for PBXNativeTarget "EmotionRecognition" */;
 			buildPhases = (
+				58EF5955CD6AE221190BEA08 /* [CP] Check Pods Manifest.lock */,
 				685574AD1F357F0F00FCC7CB /* Sources */,
 				685574AE1F357F0F00FCC7CB /* Frameworks */,
 				685574AF1F357F0F00FCC7CB /* Resources */,
+				672B773A7A2B1B07CE545550 /* [CP] Embed Pods Frameworks */,
+				B7C1EA22F3BC8A122D7BF594 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,35 +194,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				685574D11F358CF600FCC7CB /* LoginViewController.xib in Resources */,
+				685574D31F35915C00FCC7CB /* CameraViewController.xib in Resources */,
 				685574BF1F357F1000FCC7CB /* LaunchScreen.storyboard in Resources */,
 				685574BC1F357F1000FCC7CB /* Assets.xcassets in Resources */,
-				685574BA1F357F1000FCC7CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58EF5955CD6AE221190BEA08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		672B773A7A2B1B07CE545550 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmotionRecognition/Pods-EmotionRecognition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7C1EA22F3BC8A122D7BF594 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmotionRecognition/Pods-EmotionRecognition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		685574AD1F357F0F00FCC7CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				685574B71F357F0F00FCC7CB /* ViewController.swift in Sources */,
+				685574D51F35931C00FCC7CB /* SwiftyRecordButton.swift in Sources */,
+				685574CD1F35866600FCC7CB /* LoginViewController.swift in Sources */,
 				685574B51F357F0F00FCC7CB /* AppDelegate.swift in Sources */,
+				685574CB1F35827200FCC7CB /* SocialButton.swift in Sources */,
+				685574CF1F35885D00FCC7CB /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		685574B81F357F1000FCC7CB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				685574B91F357F1000FCC7CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		685574BD1F357F1000FCC7CB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -258,6 +373,7 @@
 		};
 		685574C41F357F1000FCC7CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A073B99953FED1BAAF6788E /* Pods-EmotionRecognition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TLAM246JYZ;
@@ -271,6 +387,7 @@
 		};
 		685574C51F357F1000FCC7CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB9F19AF41578083467537D /* Pods-EmotionRecognition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TLAM246JYZ;
@@ -301,6 +418,7 @@
 				685574C51F357F1000FCC7CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
